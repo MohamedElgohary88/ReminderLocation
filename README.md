@@ -1,11 +1,11 @@
 # ReminderLocation
+
 Project: Location Reminder - Fourth Project from Udacity Advanced Android Development Kotlin Nanodegree
---------------------------
 In this project, I am create a TODO list app with location reminders that remind the user to do something
 when the user is at a specific location.
 The app will require the user to create an account and login to set and access reminders.
----------------------------------
-Project Instructions
+
+# Project Instructions
 
 User Authentication
 Login: Create a Login screen to ask users to login using an email address or a Google account. Upon successful login, navigate the user to the Reminders screen. If there is no account, the app should navigate to a Registration (Signup) screen.
@@ -14,7 +14,7 @@ Authentication: Enable the authentication using Firebase console and include Fir
 Tip: You can use either FirebaseUserLiveData or just FirebaseAuth.getInstance().currentUser or shared preferences.
 Logout: Make sure that the users can log out of the app and when the app starts again they are required to login first.
 ![image](https://user-images.githubusercontent.com/87489620/214917836-7475bc10-5d42-4568-9285-22e62d60c5f7.png)
--------------------
+
 Map View
 Map view: Create a Map view that shows the user's current location.
 It should first ask the user's location access permission to show his/her current location on the map.
